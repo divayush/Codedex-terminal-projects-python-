@@ -22,7 +22,7 @@ def check(user_choice,computer_choice):
         print("You win! paper beats rock.")
         user_score += 1
     else:
-        print(f'You loosed! {computer_choice} beats {user_choice}  ')
+        print(f'You lost! {computer_choice} beats {user_choice}')
         computer_score += 1
 
 while True:
